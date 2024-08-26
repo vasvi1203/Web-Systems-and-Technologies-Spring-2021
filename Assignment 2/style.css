@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --background:rgba(0, 214, 170, .75);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	background: #000;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    padding: 10px 10vw;
+    z-index: 999;     /* so that always on top of everything */
+    width: 100%;
+}
+
+.logo {
+    color: #ffffff;
+    height: 60px;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: black;
+}
+
+/*.content {
+  height: 100vh;
+  width: 100%; 
+  background-image: url('udaipur.jpg');
+  background-color: #333;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}*/
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.4em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 0.25s;
+}
+  
+nav a:hover::before {
+    transform: scale(1,1);
+}
+
+.fa-facebook-f:hover {
+    color:var(--background);
+}
+
+.fa-twitter:hover {
+    color:var(--background);
+}
+
+.fa-google-plus-g:hover {
+    color:var(--background);
+}
+
+.fa-linkedin-in:hover {
+    color:var(--background);
+}
+
+.fa-instagram:hover {
+    color:var(--background);
+}
+
+.foot:hover {
+    color:var(--background);
+}
+
+section {
+    position: relative;
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #000000, transparent);
+}
+
+.banner .content {
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner .content h2 {
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.banner .content p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #ffffff;
+    color: #333;
+    text-decoration: none;
+}
+
+.fitBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book .contentBx {
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+
+.book .contentBx1 {
+    min-width: 50%;
+    width: 50%;
+    text-align: start;
+    padding-left: 40px;
+}
+
+.titleText {
+    font-weight: 600px;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.book .imgBx {
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+}
+
+.banner2 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    background: linear-gradient(to top, #000000, transparent);
+}
+
+.banner2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #000000, transparent);
+}
+
+.banner2 .content {
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner2 .content h2 {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.banner2 .content p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.destination {
+    text-align: center;
+}
+
+.destination .dcontent {
+    text-align: center;
+}
+
+.destination .destinationList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.destination .destinationList .box {
+    position: relative;
+    min-width: 350px;
+    height: 480px;
+    background: #191919;
+    transition: 0.1s;
+    margin: 10px;
+}
+
+.destination .destinationList:hover .box {
+    opacity: 0.2;
+}
+
+.destination .destinationList .box:hover {
+    opacity: 1;
+}
+
+.destination .destinationList .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.destination .destinationList .box .content {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination .destinationList .box .content h2 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+    .menu-toggle {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .menu-toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+
+    .menu-toggle.active:before {
+        content: '\f00d';
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+        width: 100%;
+    }
+
+    nav.active ul {
+        display: block;
+    }
+
+    nav.active li {
+        margin: 0;
+    }
+
+    .logo {
+        color: #black;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    .banner2 .content h2 {
+        font-size: 2.5em;
+    }
+
+    .banner2 .content p {
+        font-size: 1em;
+    }
+
+    .book {
+        flex-direction: column;
+    }
+
+    .book .contentBx,
+    .book .imgBx {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .book .contentBx1,
+    .book .imgBx {
+        margin-top: 30px;
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .book .imgBx {
+        min-height: 250px;
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+
+    .destination .destinationList .box {
+        position: relative;
+        max-width: 350px;
+        min-width: initial;
+        width: 350px;
+        height: 400px;
+    }
+
+    .destination .destinationList .box .imgBx {
+        height: 320px;
+    }
+}

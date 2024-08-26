@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5a</title>
+    <style>
+        body {
+            background-image: url("world-map.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-size: 18px;
+        }
+        input {
+            width: 50px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            border: 2px solid black;
+            border-radius: 2px;
+            text-align: center;
+        }
+        label {
+            background-color: blanchedalmond;
+        }
+        .textbox {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+        }
+        .cover {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class = "textbox">
+        <label for="xcoord">X Co-ordinate : </label>
+        <input type="text" name="xcoord" id="xcoord"><br>
+        <label for="ycoord">Y Co-ordinate : </label>
+        <input type="text" name="ycoord" id="ycoord">
+    </div>
+    <div class = "cover" onmousemove = "showCoords(event)"></div>
+
+    <script>
+        function showCoords(event) {
+          var x = event.clientX;
+          var y = event.clientY;
+          document.getElementById("xcoord").value = x;
+          document.getElementById("ycoord").value = y;
+        }
+    </script>
+</body>
+</html>

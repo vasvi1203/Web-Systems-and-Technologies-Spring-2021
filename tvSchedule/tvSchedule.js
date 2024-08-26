@@ -33,7 +33,7 @@ async function sendGetRequest() {
         }
            
         const date = document.getElementById("date").value;
-        const apiData = await axios.get(`http://api.tvmaze.com/schedule?country=${countryCode}&date=${date}`);
+        const apiData = await axios.get(`https://api.tvmaze.com/schedule?country=${countryCode}&date=${date}`);
 
         if(apiData.data.length === 0) {
             const app = document.getElementById("shows");

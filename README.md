@@ -1,4 +1,7 @@
-## [Assignment 1](Assignment%201.html)
+## [Assignment 1](Assignment%201)
+[`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/student-form/)
+
+![screenshot](/Assignment%201/Assignment%201.png)
 
 This assignment is a basic HTML form designed for student registration, which collects various student details such as personal information, academic details, and course registrations.
 
@@ -29,6 +32,9 @@ This assignment is a basic HTML form designed for student registration, which co
 The form does not include backend processing; it is designed as a front-end HTML template suitable for further integration with a server-side script or a web application framework.
 
 ## [Assignment 2](Assignment%202)
+[`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/splash/)
+
+![screenshot](/Assignment%202/homepageSS.png)
 
 **Splash** is a web-based guide to Udaipur, offering quick access to information on accommodations, transport, attractions, climate, and food.
 
@@ -46,6 +52,9 @@ Perfect for travelers planning a visit to Udaipur or anyone interested in explor
 
 ## [Assignment 3](Assignment%203)
 ## coordsTracker.html - Coordinate Tracker
+[`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/tracker/)
+
+![screenshot](/Assignment%204/tracker.png)
 
 **coordsTracker.html** is a simple web page that tracks the X and Y coordinates of the mouse pointer on a background image.
 
@@ -60,6 +69,9 @@ Perfect for travelers planning a visit to Udaipur or anyone interested in explor
 
 
 ## tvSchedule.html - TV Show Schedule Viewer
+[`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/tvSchedule/)
+
+![screenshot](/Assignment%203/tv.png)
 
 **tvSchedule.html** is a web application that fetches and displays TV show schedules based on a selected country and date.
 
@@ -77,6 +89,10 @@ Perfect for travelers planning a visit to Udaipur or anyone interested in explor
 Perfect for users interested in checking TV schedules across different countries on specific dates.
 
 ## [Assignment 4](Assignment%204)
+[`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/coep/)
+
+![screenshot](/Assignment%204/homepageSS.png)
+
 This assignment is a website for my undergrad college, College of Engineering Pune, showcasing various departments, student clubs, events, and academic information.
 
 ### Key Features:

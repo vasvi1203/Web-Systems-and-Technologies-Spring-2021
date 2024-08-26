@@ -1,6 +1,7 @@
 async function getCountryCode(country) {
+    const API_KEY='b3d0b02c8af15f545a393772bae9545d'
     try {
-        const apiData = await axios.get(`https://restcountries.eu/rest/v2/name/${country}`);
+        const apiData = await axios.get(`https://api.countrylayer.com/v2/name/${country}?access_key=${API_KEY}&fullText=true`);
         var countryCode;
         apiData.data.forEach(countryList => {
             if(countryList.name.toLowerCase() === country.toLowerCase()) {

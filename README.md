@@ -54,7 +54,7 @@ Perfect for travelers planning a visit to Udaipur or anyone interested in explor
 ## coordsTracker.html - Coordinate Tracker
 [`Deployment Link`](https://vasvi1203.github.io/Web-Systems-and-Technologies-Spring-2021/tracker/)
 
-![screenshot](/Assignment%204/tracker.png)
+![screenshot](/Assignment%203/tracker.png)
 
 **coordsTracker.html** is a simple web page that tracks the X and Y coordinates of the mouse pointer on a background image.
 
